@@ -1,0 +1,15 @@
+extends layout
+block content
+	include header
+	block contenido
+		section#table
+			div#taaa
+				include tablareca
+				
+			form(method="post")
+				label#recarga Valor A Recargar: 
+				input(type="text", name='carga', placeholder="Valor",required,autofocus)
+				button(onClick="recarga();") Recargar
+		p #{mensaje}	
+	
+	include footer

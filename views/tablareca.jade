@@ -1,0 +1,36 @@
+if(usuarios)
+			table
+				tr#enca
+					th#list Nombre 
+					th#list Apellido 
+					th#list Fecha De Nacimiento 
+					th#list Sexo 
+					th#list Cedula 
+					th#list Celular 
+					th#list Direccion
+					th#list Correo 
+					th#list Cuenta
+					th#list Saldo
+				tr#conte     
+					td#list2 
+						p #{usuarios.nombre}
+					td#list2 
+						p #{usuarios.apellido}
+					td#list2 	
+						p #{usuarios.dia} / #{usuarios.mes} / #{usuarios.año}
+					td#list2 
+						p #{usuarios.sexo}
+					td#list2 
+						p #{usuarios.cedula}
+					td#list2 	
+						p #{usuarios.celular}
+					td#list2
+						p #{usuarios.direccion}
+					td#list2 
+						p #{usuarios.correo}
+					td#list2 
+						p #{usuarios.cuenta}
+					td#list2 
+						p #{usuarios.saldo}
+			p #{mensaje}	
+				

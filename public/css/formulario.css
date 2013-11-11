@@ -1,0 +1,60 @@
+
+#registro, #gente{
+        display: inline-block;
+        max-width: 100%;
+        margin: 0 auto;
+        vertical-align: top;
+        width: 95%;
+}
+#gente{
+        width: 26%;
+}
+#registro{
+        max-width: 30%;
+}
+#uni{
+        border-radius: .3em;
+        padding: 3em;
+        max-width: 100%;
+        box-shadow: 3px 2px 2px 3px rgba(1,1,1,.7);
+}
+#mita1, #mita2{
+        display: inline-block;
+        vertical-align: middle;
+}
+#mita1{
+        width:  50%;
+}
+#mita2{
+        width: 45%;
+}
+#no{
+      display: block;
+      margin: .65em;
+}
+#nom
+{
+
+        background-image: url(../img/user.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding: 2px;
+        padding-left: 16.5px;
+
+}
+#mita2 input[type="text"], #mita2 input[type="password"], #mita2 input[type="email"], #mita2 select[type="number"], #mita2 select[type="text"]{
+        
+        margin: .3em auto;
+        border: 1px solid #838484;
+        box-shadow: 0px 1px 3px  rgba(0,0,0,.7);
+}
+input[type="submit"]{
+
+        margin: 1em auto;
+        border: 1px solid #838484;
+        border-radius: .3em;
+        box-shadow:  3px 5px 1px 1px rgba(1,1,1,.7);
+        padding: .2em;
+        margin-left: 78%;
+
+}

@@ -1,0 +1,50 @@
+extends layout
+block content
+  include layout
+  block contenido
+    div#todo
+      img#gente(src="img/gente.jpg", alt="")
+      form#registro(method="post",action="/index")
+        div#uni
+          div#mita1
+            label#no Nombre:
+            label#no Apellido:
+            label#no Cedula:
+            label#no Fecha de Nacimiento:
+            label#no Sexo:
+            label#no Celular:
+            label#no Email:
+            label#no Direccion:
+            label#no Usuario:
+            label#no Contraseña:
+            label#no Tipo de Cuenta:
+          div#mita2
+            input#nom(name="nombres", type="text",required)
+            input(type="text",name="apellido",required)
+            input(type="text",name="cedula",required)
+            select(type='number',name='dia',required)
+              -for(var i = 1; i<32; i++)
+                option #{i}
+            select(type='number',name='mes',required)
+              -for(var i = 1; i<13; i++)
+                option #{i}
+            select(type='number',name='año',required)
+              -for(var i = 2014; i>1959; i--)
+                option #{i}
+            br
+            select(type="text",name="sexo",required, default="F",required)
+              option F
+              option M
+            input(type="text", name="celular",required)
+            input(id="Email",name="correo", type="email",required)
+            input(type="text", name="direccion",required)           
+            input(type="text", name="nick",required)
+            input(id="Password", type="password", name="contraseña", required)
+            select(type="text", name="cuenta",required)
+              option Ahorros
+              option Corriente
+          p
+            input(type="submit", value="Registrar")
+        p #{mensaje}
+                    
+   include footer

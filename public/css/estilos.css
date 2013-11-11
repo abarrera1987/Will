@@ -1,0 +1,204 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	
+}
+@font-face{
+	font-family: 'Cherry Swash', cursive;
+}
+
+header section footer{
+	display: block;
+	margin: 5em;
+}
+body{
+	color: #000000;
+}
+header{
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #666666),
+		color-stop(1, #000000)
+	);
+	background-image: -o-linear-gradient(bottom, #666666 0%, #000000 100%);
+	background-image: -moz-linear-gradient(bottom, #666666 0%, #000000 100%);
+	background-image: -webkit-linear-gradient(bottom, #666666 0%, #000000 100%);
+	background-image: -ms-linear-gradient(bottom, #666666 0%, #000000 100%);
+	background-image: linear-gradient(to bottom, #666666 0%, #000000 100%);
+	);
+}
+header{
+	border-radius: .2em;
+	margin: 0 1em 0 1em;
+}
+header, .logos, .nav, #nick-header{
+	
+	display: inline-block;	
+	vertical-align: middle;	
+
+}
+header img{	
+	padding-left: 1em;
+	width: 31%;
+
+}
+#nick-header{
+	color: #fafafa;
+	margin: 0 auto;
+	width: 12%;
+	padding-left: 2em;
+}
+.logos{
+	width: 43%;
+}
+.nav{
+	width: 37%;
+	text-align: center;
+	padding-left: 5em;
+	height: 70px;
+	z-index: 999; 
+	
+}
+
+footer{
+	color: #E1380E;
+	font-family: 'Indie Flower', cursive;
+	
+	text-align: center;
+}
+footer .empresa{
+	background: none;
+}
+.empresa{
+	color: #E1380E;
+	font-size: 1.5em;
+}
+.logobanco{
+	opacity: 1;
+	filter:alpha(opacity=10);
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+.logobanco:hover{
+	opacity: .7;
+	filter:alpha(opacity=8);
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.titulo{
+	text-align: center;
+	color: #F60;
+}
+#header img{
+	padding-left: 1em;
+	width: 59%;
+
+}
+#table{
+	margin: 0 auto;
+	padding: 50px;
+	width: 1200px;
+	height: 452px;
+}
+
+#enca, table, #conte{
+	margin: 1em;
+	padding: 2em;
+	border-radius: .2em;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+	border-radius: .2em;	
+	margin: .2em;
+	text-align: center;
+}
+#list, #list2{
+	margin: 1em;
+	padding: 2em;
+	border: 1px solid #000000;
+	width: 15em;
+	padding: .7em;
+	text-align: center;
+}
+#recarga{
+	margin: 1em;
+	padding: 2em;
+	width: 15em;
+	padding: .7em;
+	text-align: center;
+}
+
+#login{
+	padding: 5.9em;
+}
+#tlo, #img-logo{
+	
+	display: inline-block;	
+	max-width: 100%;
+	vertical-align: middle;
+
+}
+#img-logo{
+	width: 45%;
+}
+#tlo{
+	width: 50%;
+	font-size: 2.5em;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	color: #000000;
+}
+#btnReg{
+	font-family: 'Electrolize', sans-serif;
+	display: block;
+	margin: 0 auto;
+	border-radius: .2em;
+	padding: .2em;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+	margin-left: 52%;
+	width: 35%;
+}
+#formula{
+	padding: 2.65em;
+}
+#la{
+	
+	border-radius: .2em;
+	margin-left: 51em;
+	box-shadow: 0 0 2.5px 2.5px rgba(0,0,0,.1);
+}
+#mula{
+
+	width: 20%;	
+	padding: 3em;
+	padding-top: 2em;
+	margin-left: 31em;
+	box-shadow: 3px 0 2.5px 2.5px #888;
+	background-image: linear-gradient(bottom, rgb(3,58,255) 6%, rgb(64,131,255) 53%);
+	background-image: -o-linear-gradient(bottom, rgb(3,58,255) 6%, rgb(64,131,255) 53%);
+	background-image: -moz-linear-gradient(bottom, rgb(3,58,255) 6%, rgb(64,131,255) 53%);
+	background-image: -webkit-linear-gradient(bottom, rgb(3,58,255) 6%, rgb(64,131,255) 53%);
+	background-image: -ms-linear-gradient(bottom, rgb(3,58,255) 6%, rgb(64,131,255) 53%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.06, rgb(3,58,255)),
+		color-stop(0.53, rgb(64,131,255))
+	);
+}
+
+
+@media screen and (min-width: 1081px){
+
+	
+	
+	
+}

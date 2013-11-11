@@ -1,0 +1,25 @@
+extends layout
+block content
+	include layout2
+		section#header
+			div#img-logo
+				img(src="img/prueba.png", alt="Banco Central Internacional")
+			div#tlo
+				h1#ti BIENVENIDO AL 
+				h2#tle BANCO CENTRAL INTERNACIONAL
+		section#login
+			div#la
+				form(method="post",action="/inicio")
+					labe#nomb(for="usuario") Usuario 		
+					input#nomb(type="text",name="nicks",required,autofocus)
+					br
+					labe#cedu(for="Contraseña") Contraseña     
+					input#cedu(type="password",name="contraseñas",required)
+					br
+					input#btnIni(type="submit",value="Iniciar")	
+					a(href="/registro") Registro
+		if(mensaje)
+			p #{mensaje}
+
+
+	include footer

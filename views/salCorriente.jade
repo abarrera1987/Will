@@ -1,0 +1,18 @@
+extends layout
+block content
+	include header
+	block contenido
+		if(usuarios)
+			p #{usuarios.nombre}
+			p #{usuarios.apellido}
+			p #{usuarios.celular}
+			p #{usuarios.sexo}
+			p #{usuarios.direccion}
+			p #{usuarios.correo}
+			p #{usuarios.dia}
+			p #{usuarios.mes}
+			p #{usuarios.año}
+			p #{usuarios.saldo}
+
+
+	include footer

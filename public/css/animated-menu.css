@@ -1,0 +1,75 @@
+body{
+	font-family: 'Cherry Swash', cursive;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(1, #D4D4D4)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #D4D4D4 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #D4D4D4 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #D4D4D4 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #D4D4D4 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #D4D4D4 100%);
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	width:115px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+
+.n{
+	color:#FFF;
+	text-decoration:none;
+}
+
+p{
+	padding:0px 5px;
+}
+
+	.subtext, .opcion{
+		
+		color: #F60;
+		font-family: 'Electrolize', sans-serif;
+		font-size: 1em;
+
+	}
+	.subtext{
+		padding-top:30px;
+	}
+	.opcion{
+		padding-top: 15px;
+	}
+
+/*Menu Color Classes*/
+
+
+.green, .yellow, .red, .purple, .blue{
+	border-radius: .2em;
+	margin: .1em;
+	opacity: 3em;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #7E807F),
+		color-stop(1, #000000)
+	);
+	background-image: -o-linear-gradient(bottom, #7E807F 0%, #000000 100%);
+	background-image: -moz-linear-gradient(bottom, #7E807F 0%, #000000 100%);
+	background-image: -webkit-linear-gradient(bottom, #7E807F 0%, #000000 100%);
+	background-image: -ms-linear-gradient(bottom, #7E807F 0%, #000000 100%);
+	background-image: linear-gradient(to bottom, #7E807F 0%, #000000 100%);
+}

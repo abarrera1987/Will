@@ -1,0 +1,36 @@
+header
+	h1.logos
+		a.logobanco(method='post',href='/inicio')
+			img.logo(src='img/prueba2.png')
+	
+	h2#nick-header Hola! #{users.nick} 
+	nav.nav
+		ul
+			
+			li.yellow
+				p.opcion
+					a.n(href='#') Transacciones
+				p.subtext 
+					a.n(href='/login2') Consignación
+					br/
+					a.n(href='/') Retiro
+					br/
+					a.n(href='/') Transferencia
+			
+			li.red
+				p.opcion
+					a.n(href='#') Movil
+				p.subtext 
+					a.n(href='/recarga') Recarga Tu Movil
+					
+					
+			li.blue
+				p.opcion
+					a.n(href='#') Saldo
+				p.subtext 
+					a.n(href='/salAhorro') Ahorros
+					br/
+					a.n(href='/salCorriente') Corriente
+			
+			
+block contenido
